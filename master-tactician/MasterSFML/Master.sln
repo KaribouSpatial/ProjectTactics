@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Master", "Master\Master.vcxproj", "{99FED925-7FBD-40F6-9BDB-F174C57B967D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataBuilder", "DataBuilder\DataBuilder.vcxproj", "{A786DAE1-04AA-47E4-BD4F-5E9322C3540C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99FED925-7FBD-40F6-9BDB-F174C57B967D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{99FED925-7FBD-40F6-9BDB-F174C57B967D}.Debug|Win32.Build.0 = Debug|Win32
+		{99FED925-7FBD-40F6-9BDB-F174C57B967D}.Release|Win32.ActiveCfg = Release|Win32
+		{99FED925-7FBD-40F6-9BDB-F174C57B967D}.Release|Win32.Build.0 = Release|Win32
+		{A786DAE1-04AA-47E4-BD4F-5E9322C3540C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A786DAE1-04AA-47E4-BD4F-5E9322C3540C}.Debug|Win32.Build.0 = Debug|Win32
+		{A786DAE1-04AA-47E4-BD4F-5E9322C3540C}.Release|Win32.ActiveCfg = Release|Win32
+		{A786DAE1-04AA-47E4-BD4F-5E9322C3540C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

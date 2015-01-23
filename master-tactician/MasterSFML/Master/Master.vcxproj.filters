@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{68e0b1ce-9569-4f94-942b-7ef8148742d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Animation">
+      <UniqueIdentifier>{5fc60ba5-e42d-4608-9085-7154409e541e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entities">
+      <UniqueIdentifier>{e27aabb6-46bd-4f11-8966-cad06f49e2ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Ressource Handling">
+      <UniqueIdentifier>{eca96446-b9e7-4a75-81a1-122bc93243f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NameSpaces">
+      <UniqueIdentifier>{197abfd3-7b6b-4446-97ba-06470aa35fc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entities\Animated Interface">
+      <UniqueIdentifier>{4b65959e-fab1-47b0-a3f3-e79fa90c213d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Animation">
+      <UniqueIdentifier>{cf3caa2e-c14b-49f3-98f3-30ba254cb4b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities">
+      <UniqueIdentifier>{7bf99389-7471-4524-96fd-681dd0fd3e12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ressource Handling">
+      <UniqueIdentifier>{7705d63c-6e0a-4f07-99a6-68e6c0635f13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\States">
+      <UniqueIdentifier>{40881ca6-0d51-49d1-9a91-d102b5f31c2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\States">
+      <UniqueIdentifier>{1b7eb00a-1b9f-4782-8f6a-019a0732ae0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entities\Selection">
+      <UniqueIdentifier>{7ec6d174-69d2-48de-8cca-4315bc2df624}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities\Selection">
+      <UniqueIdentifier>{8c5992e8-228c-43d4-a023-bbd9800e48bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GeneratorArea">
+      <UniqueIdentifier>{4b46a56b-a07d-4280-b237-5fccd4f6a8ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GeneratorArea">
+      <UniqueIdentifier>{92c409a4-3341-47c4-80de-345b46e950e8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GridInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Hex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Pathing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TEMPLATE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitProperties.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Header Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectAnimation.h">
+      <Filter>Header Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitAnimation.h">
+      <Filter>Header Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectAnimation.h">
+      <Filter>Header Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureLoader.h">
+      <Filter>Header Files\Ressource Handling</Filter>
+    </ClInclude>
+    <ClInclude Include="DataLoader.h">
+      <Filter>Header Files\Ressource Handling</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneNode.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="mt.h">
+      <Filter>Header Files\NameSpaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>Header Files\NameSpaces</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Animated.h">
+      <Filter>Header Files\Entities\Animated Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatedObject.h">
+      <Filter>Header Files\Entities\Animated Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatedUnit.h">
+      <Filter>Header Files\Entities\Animated Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="States.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="States_UnitSelected_GroundSelected.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="States_FreeCamera.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="TEMPLATE_SINGLETON.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="States_Selecting.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="States_UnitSelected.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Selection.h">
+      <Filter>Header Files\Entities\Selection</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorFiltre.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorFiltreAnimation.h">
+      <Filter>Header Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatedFiltre.h">
+      <Filter>Header Files\Entities\Animated Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Filtre.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectionFiltre.h">
+      <Filter>Header Files\Entities\Selection</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratorArea.h">
+      <Filter>Header Files\GeneratorArea</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratorCornerLine.h">
+      <Filter>Header Files\GeneratorArea</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratorParameters.h">
+      <Filter>Header Files\GeneratorArea</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratorAreaFactory.h">
+      <Filter>Header Files\GeneratorArea</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratorCircle.h">
+      <Filter>Header Files\GeneratorArea</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GridInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TEMPLATE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitProperties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Source Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectAnimation.cpp">
+      <Filter>Source Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitAnimation.cpp">
+      <Filter>Source Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectAnimation.cpp">
+      <Filter>Source Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandQueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneNode.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="DataLoader.cpp">
+      <Filter>Source Files\Ressource Handling</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureLoader.cpp">
+      <Filter>Source Files\Ressource Handling</Filter>
+    </ClCompile>
+    <ClCompile Include="States.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="States_UnitSelected_GroundSelected.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="States_FreeCamera.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="TEMPLATE_SINGLETON.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="States_Selecting.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="States_UnitSelected.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Selection.cpp">
+      <Filter>Source Files\Entities\Selection</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorFiltre.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorFiltreAnimation.cpp">
+      <Filter>Source Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Filtre.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectionFiltre.cpp">
+      <Filter>Source Files\Entities\Selection</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratorCornerLine.cpp">
+      <Filter>Source Files\GeneratorArea</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratorAreaFactory.cpp">
+      <Filter>Source Files\GeneratorArea</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratorCircle.cpp">
+      <Filter>Source Files\GeneratorArea</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

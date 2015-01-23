@@ -1,0 +1,26 @@
+[0x00000000]
+int: int number		 				//$(position of the second set of structures)
+
+[sizeof(int)] 						//position of the first set of structures.
+binImg: binImg img					//First set is Characters
+
+[sizeof(int)+sizeof(binImg}]
+char*: Uint8 pixels					//Pixels
+
+[$(0x00000000)]
+int: int number 					//$(position of the third set of structures)
+
+[$(0x00000000)+sizeof(int)]			//position of the second set of structures.
+binImg: binImg img					//Second set is Object
+
+[$($(0x00000000))]
+int: int number 					//$(position of the fourth set of structures)
+
+[$($(0x00000000))+sizeof(int)]		//position of the third set of structures.
+binImg: binImg img					//Third set is Tileset
+
+[$($($(0x00000000)))]				
+int: int number						//position of the fifth set of structures
+
+[$($($(0x00000000)))+sizeof(int)]	//position of the fourth set of structures
+binUnitStruct: binUnitStruct unit	//Fourth set are unitProperties presets.

@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{99FED925-7FBD-40F6-9BDB-F174C57B967D}</ProjectGuid>
+    <RootNamespace>Master</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\Odric\Documents\Libraries\SFML\include;D:\Documents\Libraries\SFML-2.1\include</AdditionalIncludeDirectories>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <BrowseInformation>true</BrowseInformation>
+      <ShowIncludes>false</ShowIncludes>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\Odric\Documents\Libraries\SFML\lib;D:\Documents\Libraries\SFML-2.1\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics-d.lib;sfml-window-d.lib;sfml-system-d.lib;sfml-audio-d.lib;sfml-network-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\Odric\Documents\Libraries\SFML\include;D:\Documents\Libraries\SFML-2.1\include</AdditionalIncludeDirectories>
+      <EnablePREfast>false</EnablePREfast>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\Users\Odric\Documents\Libraries\SFML\lib;D:\Documents\Libraries\SFML-2.1\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics.lib;sfml-window.lib;sfml-system.lib;sfml-audio.lib;sfml-network.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AnimatedFiltre.h" />
+    <ClInclude Include="ColorFiltre.h" />
+    <ClInclude Include="ColorFiltreAnimation.h" />
+    <ClInclude Include="Filtre.h" />
+    <ClInclude Include="GeneratorArea.h" />
+    <ClInclude Include="GeneratorAreaFactory.h" />
+    <ClInclude Include="GeneratorCircle.h" />
+    <ClInclude Include="GeneratorCornerLine.h" />
+    <ClInclude Include="GeneratorParameters.h" />
+    <ClInclude Include="SelectionFiltre.h" />
+    <ClInclude Include="States.h" />
+    <ClInclude Include="Animated.h" />
+    <ClInclude Include="AnimatedObject.h" />
+    <ClInclude Include="AnimatedUnit.h" />
+    <ClInclude Include="Command.h" />
+    <ClInclude Include="CommandQueue.h" />
+    <ClInclude Include="DataLoader.h" />
+    <ClInclude Include="EffectAnimation.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Animation.h" />
+    <ClInclude Include="mt.h" />
+    <ClInclude Include="Enum.h" />
+    <ClInclude Include="GridInfo.h" />
+    <ClInclude Include="Hex.h" />
+    <ClInclude Include="Map.h" />
+    <ClInclude Include="MyView.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="ObjectAnimation.h" />
+    <ClInclude Include="Pathing.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="SceneNode.h" />
+    <ClInclude Include="Selection.h" />
+    <ClInclude Include="States_FreeCamera.h" />
+    <ClInclude Include="States_Selecting.h" />
+    <ClInclude Include="States_UnitSelected.h" />
+    <ClInclude Include="States_UnitSelected_GroundSelected.h" />
+    <ClInclude Include="TEMPLATE.h" />
+    <ClInclude Include="TEMPLATE_SINGLETON.h" />
+    <ClInclude Include="TextureLoader.h" />
+    <ClInclude Include="Tests.h" />
+    <ClInclude Include="Unit.h" />
+    <ClInclude Include="UnitAnimation.h" />
+    <ClInclude Include="UnitProperties.h" />
+    <ClInclude Include="World.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ColorFiltre.cpp" />
+    <ClCompile Include="ColorFiltreAnimation.cpp" />
+    <ClCompile Include="Filtre.cpp" />
+    <ClCompile Include="GeneratorAreaFactory.cpp" />
+    <ClCompile Include="GeneratorCircle.cpp" />
+    <ClCompile Include="GeneratorCornerLine.cpp" />
+    <ClCompile Include="SelectionFiltre.cpp" />
+    <ClCompile Include="States.cpp" />
+    <ClCompile Include="Animation.cpp" />
+    <ClCompile Include="CommandQueue.cpp" />
+    <ClCompile Include="DataLoader.cpp" />
+    <ClCompile Include="EffectAnimation.cpp" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="mt.cpp" />
+    <ClCompile Include="GridInfo.cpp" />
+    <ClCompile Include="Hex.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Map.cpp" />
+    <ClCompile Include="MyView.cpp" />
+    <ClCompile Include="Object.cpp" />
+    <ClCompile Include="ObjectAnimation.cpp" />
+    <ClCompile Include="Pathing.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="SceneNode.cpp" />
+    <ClCompile Include="Selection.cpp" />
+    <ClCompile Include="States_FreeCamera.cpp" />
+    <ClCompile Include="States_Selecting.cpp" />
+    <ClCompile Include="States_UnitSelected.cpp" />
+    <ClCompile Include="States_UnitSelected_GroundSelected.cpp" />
+    <ClCompile Include="TEMPLATE_SINGLETON.cpp" />
+    <ClCompile Include="TextureLoader.cpp" />
+    <ClCompile Include="Unit.cpp" />
+    <ClCompile Include="TEMPLATE.cpp" />
+    <ClCompile Include="Tests.cpp" />
+    <ClCompile Include="UnitAnimation.cpp" />
+    <ClCompile Include="UnitProperties.cpp" />
+    <ClCompile Include="World.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
