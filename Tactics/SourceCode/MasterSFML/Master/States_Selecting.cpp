@@ -137,7 +137,7 @@ bool States_Selecting::handlePlayerInputSpecific(sf::Event::KeyEvent key, bool i
 			unsigned int firstDirection = 0;
 			int typeArea = 0;
 			bool isLarger = false;
-			/****************************
+			/****************************/
 			cout << endl << "Lenght: ";
 			cin >> lenght;
 			cout << "Width: ";
@@ -148,7 +148,7 @@ bool States_Selecting::handlePlayerInputSpecific(sf::Event::KeyEvent key, bool i
 			cin >> firstDirection;
 			cout << "typeArea[0,1]: ";
 			cin >> typeArea;
-			cout << "isLarger: ";
+			cout << "isLarger[0,1]: ";
 			cin >> isLarger;
 			if(cin.fail())
 			throw runtime_error("Wrongful entry");

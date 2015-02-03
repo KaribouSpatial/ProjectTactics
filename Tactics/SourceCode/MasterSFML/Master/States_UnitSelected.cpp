@@ -111,7 +111,7 @@ bool States_UnitSelected::handlePlayerInputSpecific(sf::Event::KeyEvent key, boo
 						Selection::Instance()->getHex()->calculateDistance(selectedUnitHex);
 						Selection::Instance()->getSelectUnit()->dealDamageTo(unit);
 						Selection::Instance()->getCursor()->setCoordinates(Selection::Instance()->getSelectUnit()->getObjectCoordinates());
-						Selection::Instance()->setHex(selectedUnitHex;
+						Selection::Instance()->setHex(selectedUnitHex);
 						Selection::Instance()->setSelectUnit(nullptr);
 						Selection::Instance()->getCursor()->setColor(mt::Overlay::Color::White);
 						Player::Instance()->setState(States_Selecting::Instance());

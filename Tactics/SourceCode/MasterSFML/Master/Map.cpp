@@ -6,7 +6,7 @@ using namespace std;
 
 //Defines
 #define TODO
-#define TileTextureNumber 1
+#define TileTextureNumber 3
 //Const
 
 //Prototypes
@@ -36,7 +36,7 @@ Map::Map(int width, int height, TextureLoader* textureHolder):
 		for ( int column = 0 ; column < width_ ; ++column)
 		{
 			//Temporary Measure, random tile
-			(*map_)[row][column].setTilesetType(mt::TilesetType::Sand/*(mt::random(TileTextureNumber,1))*/);
+			(*map_)[row][column].setTilesetType(mt::TilesetType(/*::Sand(*/mt::random(TileTextureNumber,1)));
 			//setting up adjacent hexes
 			getHex(column, row)->setGridInfo(column, row);
 			getHex(column, row)->setAdjacent(this);
